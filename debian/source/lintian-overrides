@@ -1,0 +1,5 @@
+python-pillow source: license-problem-md5sum-non-free-file
+python-pillow source: no-debian-changes
+python-pillow source: source-contains-prebuilt-windows-binary
+python-pillow source: source-is-missing
+python-pillow source: source-package-encodes-python-version
