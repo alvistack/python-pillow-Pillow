@@ -28,7 +28,7 @@ def get_version():
     return locals()["__version__"]
 
 
-PILLOW_VERSION = get_version()
+PILLOW_VERSION = "10.2.0"
 FREETYPE_ROOT = None
 HARFBUZZ_ROOT = None
 FRIBIDI_ROOT = None

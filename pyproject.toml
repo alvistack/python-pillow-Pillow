@@ -9,6 +9,7 @@ backend-path = [
 
 [project]
 name = "pillow"
+version = "10.2.0"
 description = "Python Imaging Library (Fork)"
 readme = "README.md"
 keywords = [
@@ -33,9 +34,6 @@ classifiers = [
   "Topic :: Multimedia :: Graphics :: Capture :: Screen Capture",
   "Topic :: Multimedia :: Graphics :: Graphics Conversion",
   "Topic :: Multimedia :: Graphics :: Viewers",
-]
-dynamic = [
-  "version",
 ]
 [project.optional-dependencies]
 docs = [
@@ -85,9 +83,6 @@ Twitter = "https://twitter.com/PythonPillow"
 packages = ["PIL"]
 include-package-data = true
 package-dir = {"" = "src"}
-
-[tool.setuptools.dynamic]
-version = {attr = "PIL.__version__"}
 
 [tool.cibuildwheel]
 before-all = ".github/workflows/wheels-dependencies.sh"
