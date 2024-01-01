@@ -29,7 +29,7 @@ def get_version():
 configuration = {}
 
 
-PILLOW_VERSION = get_version()
+PILLOW_VERSION = "10.4.0"
 FREETYPE_ROOT = None
 HARFBUZZ_ROOT = None
 FRIBIDI_ROOT = None
