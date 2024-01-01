@@ -31,7 +31,7 @@ def get_version() -> str:
 configuration: dict[str, list[str]] = {}
 
 
-PILLOW_VERSION = get_version()
+PILLOW_VERSION = "11.2.0"
 AVIF_ROOT = None
 FREETYPE_ROOT = None
 HARFBUZZ_ROOT = None
