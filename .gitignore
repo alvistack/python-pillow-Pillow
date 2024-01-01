@@ -95,5 +95,4 @@ Tests/images/sunraster
 pillow-depends-main.zip
 pillow-test-images.zip
 
-# pyinstaller
-*.spec
+.pybuild
