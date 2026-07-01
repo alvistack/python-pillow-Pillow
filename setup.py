@@ -42,7 +42,7 @@ def get_version() -> str:
         return f.read().split('"')[1]
 
 
-PILLOW_VERSION = get_version()
+PILLOW_VERSION = "12.3.0"
 AVIF_ROOT = None
 FREETYPE_ROOT = None
 HARFBUZZ_ROOT = None
